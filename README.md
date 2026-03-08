@@ -1,2 +1,14 @@
-# AI-Complaint-Prioritization-System
-AI-powered system that analyzes student complaints using NLP and machine learning to prioritize urgent issues.
+# AI-Powered Digital Complaint Prioritization System
+This project uses Machine Learning and NLP to analyze student complaints and automatically prioritize urgent issues.
+
+Tech Stack
+- Python
+- Flask
+- Scikit-learn
+- NLP
+
+Features
+- Complaint classification
+- Priority prediction
+- Admin dashboard
+- Web complaint submission
