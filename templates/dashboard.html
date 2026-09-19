@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+</head>
+
+<body>
+
+<h1>Complaint Dashboard</h1>
+
+<table border="1">
+
+<tr>
+<th>Complaint</th>
+<th>Priority</th>
+</tr>
+
+{% for c in complaints %}
+
+<tr>
+<td>{{c.text}}</td>
+<td>{{c.priority}}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<a href="/">Submit another complaint</a>
+
+</body>
+</html>
